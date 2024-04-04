@@ -68,20 +68,11 @@ class Phone {
             this.sound = "삐비빅";
         }
     }
+    void setSound(String sound){
+        this.sound = sound;
+    }
+
     void start(){
         System.out.println(this.sound);
-    }
-}
-
-
-
-class SamsungPhone extends Phone {
-    SamsungPhone(String language){
-        super(language);
-    }
-}
-class ApplePhone extends Phone {
-    ApplePhone(String language){
-        super(language);
     }
 }
